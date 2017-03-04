@@ -27,5 +27,5 @@ app.use('/users', users);
 
 
 var server = app.listen(8080, function() {
-	console.log('Express server listening on port ' + server.address().port);
+	console.log('Listening on port ' + server.address().port);
 });
